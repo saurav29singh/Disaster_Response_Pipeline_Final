@@ -35,28 +35,28 @@ The Project is divided in the following Sections:
 
 <a name="FileStructure"></a>
 ### File Structure
-app
+```
+- app
 |- template
 | |-- master.html # main page of web app
 | |-- go.html # classification result page of web app
 |- run.py # Flask file that runs app
 
-data
+- data
 |- disaster_categories.csv # data to process
-
 |- disaster_messages.csv # data to process
 |- DisasterResponse.db # database to save clean data to
 |- ETL Pipeline Preparation.ipynb
 |- process_data.py
 
-models
+- models
 
 |- classifier.pkl # saved model
 |- ML Pipeline Preparation.ipynb
 |- train_classifier.py
 
 README.md
-
+```
 <a name="Execution_Instructions"></a>
 ### Execution Instructions:
 

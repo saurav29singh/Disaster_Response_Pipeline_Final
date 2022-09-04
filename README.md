@@ -36,9 +36,9 @@ The Project is divided in the following Sections:
 <a name="FileStructure"></a>
 ### File Structure
 app
-| - template
-| |- master.html # main page of web app
-| |- go.html # classification result page of web app
+|- template
+| |-- master.html # main page of web app
+| |-- go.html # classification result page of web app
 |- run.py # Flask file that runs app
 
 data

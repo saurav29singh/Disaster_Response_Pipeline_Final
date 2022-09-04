@@ -43,6 +43,7 @@ app
 
 data
 |- disaster_categories.csv # data to process
+
 |- disaster_messages.csv # data to process
 |- DisasterResponse.db # database to save clean data to
 |- ETL Pipeline Preparation.ipynb
